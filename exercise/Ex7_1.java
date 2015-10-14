@@ -22,7 +22,6 @@ public class Ex7_1 {
 	public static void main(String[] args){
 		System.out.printf("Please input string: ");
 		BufferedReader sin = new BufferedReader(new InputStreamReader(System.in));
-		
 		int count = 0;
 		try {
 			count = countLetter(sin.readLine());
